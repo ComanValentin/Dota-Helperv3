@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dota Helper</title>
+        <link rel="shortcut icon" type="image/png" href="IMG/Favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="CSS/General_Style.css">
+        <link rel="stylesheet" type="text/css" href="CSS/Antimage_style.css">
+        <script href="scripts/header-script.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <!-- HEADER-->
+            <div id="header">
+                <div class="navbar">
+                    <ul>
+                        <li><a id="home-link" href="index.html">Home Page</a></li>
+                        <li><a id="items-link" href="#">Items</a></li>
+                        <li><a id="patch-link" href="#">Dota 2 Patches</a></li>
+                        <li class="dropdown">
+                            <a href="#">Heroes</a>
+                            <div class="dropdown-content">
+                                <a id="agility-link" href="Agility.html">Agility</a>
+                                <a id="strength-link" href="#">Strength</a>
+                                <a id="intelligence-link" href="#">Intelligence</a>
+                            </div>
+                        </li>
+                        <li><a id="support-link" href="#">Support</a></li>
+                        <li id="login"><a href="Login.html">Login</a></li> 
+                    </ul>          
+                </div>
+            </div>
+        </div>
+            <!--CONTENT-->
+            <div class="am-page">   
+                <h1 id="am">Anti-Mage</h1>
+                <div>
+                    <p class="info_1">
+                    <span class="am-title">Anti-Mage</span> is a fast melee agility hero with an emphasis on disrupting and killing high-mana enemies.
+                    He has notably high agility and low base attack time, giving him high damage and scaling with his basic attacks. His signature ability is Mana Break,
+                    a passive attack modifier that makes him a huge threat to mana-reliant heroes, mainly Intelligence-based casters. 
+                    In addition to granting substantial bonus damage on each attack, its mana burn sets enemies up to be devastated by his ultimate ability, Mana Void. Blink is a highly versatile ability that allows
+                     Anti-Mage to instantly teleport short distances, thereby allowing him to escape, chase, and even farm with ease. Combined with his high base movement speed, this makes Anti-Mage a highly
+                     mobile hero at all points in the game. Counterspell greatly increases Anti-Mage's magic resistance, allowing him to sustain more damage from enemy casters. 
+                     Finally, Mana Void finishes off targets after their mana has been burned, inflicting heavy damage to both the target and enemies surrounding the target. The damage Mana Void can potentially 
+                     deal scales extremely well into the late game, as enemies' mana pools only grow larger over time. His naturally fast basic attacks 
+                     combined with his powerful abilities make him extremely dangerous in the late game,
+                     allowing him to devastate enemies with ease if he is allowed to farm as a hard carry.
+                    </p>
+                    <h2 class="subtitle_am">Bio</h2>
+
+                    <h2 id="hero-mini-text"><img id="hero-mini-icon" src="IMG/A-M_minimap.png" alt="">Anti-Mage</h2>
+                    <figure>
+                        <figcaption>"They who live by the wand shall die by my blade."</figcaption>
+                        <audio controls src="Audio/antimage.mp3">
+                            Your browser does not support the
+                            <code>audio</code> element.
+                        </audio>
+                    </figure>
+                    <p>
+                    <span class="am-title">Lore:</span>
+                    The monks of Turstarkuri watched the rugged valleys below their mountain monastery as wave after wave of invaders swept through the lower kingdoms. Ascetic and pragmatic, in their remote monastic eyrie they remained aloof from mundane strife, wrapped in meditation that knew no gods or elements of magic. Then came the Legion of the Dead God, crusaders with a sinister mandate to replace all local worship with their Unliving Lord's poisonous nihilosophy. From a landscape that had known nothing but blood and battle for a thousand years, they tore the souls and bones of countless fallen legions and pitched them against Turstarkuri. The monastery stood scarcely a fortnight against the assault, and the few monks who bothered to surface from their meditations believed the invaders were but demonic visions sent to distract them from meditation. They died where they sat on their silken cushions. Only one youth survived--a pilgrim who had come as an acolyte, seeking wisdom, but had yet to be admitted to the monastery. He watched in horror as the monks to whom he had served tea and nettles were first slaughtered, then raised to join the ranks of the Dead God's priesthood. With nothing but a few of Turstarkuri's prized dogmatic scrolls, he crept away to the comparative safety of other lands, swearing to obliterate not only the Dead God's magic users--but to put an end to magic altogether.
+                    </p>
+                    <h2 class="subtitle_am">Hero's Stats</h2>
+                    <table>
+                        <tr id="am-title-bkg">
+                                <td><b >Anti-Mage</b></td>
+                        </tr>
+                        <tr>
+                            <td><img class="hero-icon" src="IMG/Anti-Mage_icon.png" alt=""></td>
+                        </tr>
+                        <tr><td>
+                        <table>
+                        <tr>
+                            <td>Level</td>
+                            <td>1</td>
+                            <td>15</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>Health</td>
+                            <td>660</td>
+                            <td>1020</td>
+                            <td>1280</td>
+                        </tr>
+                        <tr>
+                            <td>Health Regen</td>
+                            <td>2.55</td>
+                            <td>4.37</td>
+                            <td>5.67</td>
+                        </tr>
+                        <tr>
+                            <td>Magic Res.</td>
+                            <td>26.38%</td>
+                            <td>27.47%</td>
+                            <td>28.25%</td>
+                        </tr>
+                        <tr>
+                            <td>Magic Res.</td>
+                            <td>26.38%</td>
+                            <td>27.47%</td>
+                            <td>28.25%</td>
+                        </tr>
+                        <tr>
+                            <td>Mana</td>
+                            <td>219</td>
+                            <td>519</td>
+                            <td>735</td>
+                        </tr>
+                        <tr>
+                            <td>Mana Regen</td>
+                            <td>0.6</td>
+                            <td>1.86</td>
+                            <td>2.76</td>
+                        </tr>
+                        <tr>
+                            <td>Spell damage</td>
+                            <td>0.84%</td>
+                            <td>2.6%</td>
+                            <td>3.86%</td>
+                        </tr>
+                        <tr>
+                            <td>Armor</td>
+                            <td>2.84</td>
+                            <td>10.01</td>
+                            <td>15.13</td>
+                        </tr>
+                        <tr>
+                            <td>Attack speed</td>
+                            <td>219</td>
+                            <td>519</td>
+                            <td>735</td>
+                        </tr>
+                        <tr>
+                            <td>damage</td>
+                            <td>53-57</td>
+                            <td>97-101</td>
+                            <td>129-133</td>
+                        </tr>
+                    </table>
+                    </td>
+                    </tr>
+                    </table>
+                    <h2 class="subtitle_am">Talents</h2>
+                    <table >
+                        <tr class="table-bkg-color"><td>Hero Talents</td></tr>
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>-50s  Mana Void Cooldown</td>
+                                        <td class="table-bkg-color">Lvl-25</td>
+                                        <td>+25%  Counterspell Magic Resistance</td>
+                                    </tr>
+                                    <tr>
+                                        <td>-2.5s  Blink Cooldown</td>
+                                        <td class="table-bkg-color">Lvl-20</td>
+                                        <td>Blink Uncontrollable Illusion</td>
+                                    </tr>
+                                    <tr>
+                                        <td>+15 Agility</td>
+                                        <td class="table-bkg-color">Lvl-15</td>
+                                        <td>+400  Blink Cast Range</td>
+                                    </tr>
+                                    <tr>
+                                        <td>+20 Attack Speed</td>
+                                        <td class="table-bkg-color">Lvl-10</td>
+                                        <td>+10 Strength</td>
+                                    </tr> 
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <h2 class="subtitle_am">Abilities</h2>
+                    <table>
+                        <tr><td class="ability_title">Mana Break - Q</td></tr>
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td><img src="IMG/Mana_Break_icon.png" alt=""></td>
+                                        <td>Burns an opponent's mana on each attack. Mana Break deals 50% of the mana burned as damage to the target.</td>
+                                        <td>
+                                            <table>
+                                                <tr class="ability_title"><td>Ability</td><td>Affects</td><td>Damage</td></tr>
+                                                <tr><td>Passive</td><td>Enemies</td><td>Physical</td></tr>
+                                            </table>
+                                        </td>
+                                    </tr>                   
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Mana Burned per Hit: 28/40/52/64</td>
+                        </tr>
+                        <tr>
+                            <td>Burned Mana as Damage: 50%</td>
+                        </tr>
+                        <tr>
+                            <td>A modified technique of the Turstarkuri monks' peaceful ways is to turn magical energies on their owner.</td>
+                        </tr>
+                    </table>
+                    <table>
+                            <tr><td class="ability_title">Blink - W</td></tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <td><img src="IMG/Blink_(Anti-Mage)_icon.png" alt=""></td>
+                                            <td>Short distance teleportation that allows Anti-Mage to move in and out of combat.</td>
+                                            <td>
+                                                <table>
+                                                    <tr class="ability_title"><td>Ability</td><td>Affects</td></tr>
+                                                    <tr><td>Target point</td><td>Self</td></tr>
+                                                </table>
+                                            </td>
+                                        </tr>                   
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Cast Animation: 0.4+0.53</td>
+                            </tr>
+                            <tr>
+                                <td>Cast Range: Global</td>
+                            </tr>
+                            <tr>
+                                <td>Max Blink Distance: 925/1000/1075/1150 </td>
+                            </tr>
+                            <tr>
+                                <td>In his encounter with the Dead Gods, Anti-Mage learned the value of being elusive.</td>
+                            </tr>
+                    </table>
+                    <table>
+                            <tr><td class="ability_title">Counterspell - E</td></tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <td><img src="IMG/Counterspell_icon.png" alt=""></td>
+                                            <td>Passively grants you magic resistance. Can be activated to create an anti-magic shell around you that sends any targeted spells back towards enemies instead of affecting you.</td>
+                                            <td>
+                                                <table>
+                                                    <tr class="ability_title"><td>Ability</td><td>Affects</td></tr>
+                                                    <tr><td>No Target</td><td>Self</td></tr>
+                                                </table>
+                                            </td>
+                                        </tr>                   
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Cast Animation: 0+0</td>
+                            </tr>
+                            <tr>
+                                <td>Magic Resistance Bonus: 15%/25%/35%/45%</td>
+                            </tr>
+                            <tr>
+                                <td>Shell Duration: 1.2</td>
+                            </tr>
+                    </table>
+                    <table>
+                            <tr><td class="ability_title">Mana Void - R</td></tr>
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <td><img src="IMG/Counterspell_icon.png" alt=""></td>
+                                            <td>For each point of mana missing by the target unit, damage is dealt to it and surrounding enemies. The main target is also mini-stunned.</td>
+                                            <td>
+                                                <table>
+                                                    <tr class="ability_title"><td>Ability</td><td>Affects</td><td>Damage</td></tr>
+                                                    <tr><td>Target Unit</td><td>Enemies</td><td>Magical</td></tr>
+                                                </table>
+                                            </td>
+                                        </tr>                   
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Cast Animation: 0.3+0.63</td>
+                            </tr>
+                            <tr>
+                                <td>Cast Range: 600</td>
+                            </tr>
+                            <tr>
+                                <td>Radius: 500</td>
+                            </tr>
+                            <tr>
+                                <td>Damage per Missing Mana: 0.8/0.95/1.1</td>
+                            </tr>
+                            <tr>
+                                <td>Kill Cooldown Increase: 0 (Upgradable by Aghanim's Scepter. 70)</td>
+                            </tr>
+                            <tr>
+                                <td>Stun Duration: 0.3 (Upgradable by Aghanim's Scepter. 1.3)</td>
+                            </tr>
+                            <tr>
+                                <td>After bringing enemies to their knees, Anti-Mage punishes them for their use of the arcane arts.</td>
+                            </tr>
+                    </table>
+                </div>    
+            </div>
+        </div>
+    </body>
+</html>

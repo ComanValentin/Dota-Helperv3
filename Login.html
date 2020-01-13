@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dota Helper</title>
+        <link rel="shortcut icon" type="image/png" href="IMG/Favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="CSS/General_Style.css">
+        <link rel="stylesheet" type="text/css" href="CSS/Login_Style.css">
+        <script src="scripts/login-script.js"></script>
+        <script href="scripts/header-script.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <!-- HEADER-->
+            <div id="header">
+                <div class="navbar">
+                    <ul>
+                        <li><a id="home-link" href="index.html">Home Page</a></li>
+                        <li><a id="items-link" href="#">Items</a></li>
+                        <li><a id="patch-link" href="#">Dota 2 Patches</a></li>
+                        <li class="dropdown">
+                            <a href="#">Heroes</a>
+                            <div class="dropdown-content">
+                                <a id="agility-link" href="Agility.html">Agility</a>
+                                <a id="strength-link" href="#">Strength</a>
+                                <a id="intelligence-link" href="#">Intelligence</a>
+                            </div>
+                        </li>
+                        <li><a id="support-link" href="#">Support</a></li>
+                        <li id="login"><a href="Login.html">Login</a></li> 
+                    </ul>          
+                </div>
+            </div>
+        </div>
+            </div>
+            <!--CONTENT-->
+            <div class="main-body">   
+                    <div class="container">
+                        <form action method="post" class="username-input">
+                            <h2>LOGIN</h2>
+                            <hr>
+                            <br>
+                            <lable>Username:</lable>
+                                <input type="text" name="duser" class="uname-input">
+                                <br>
+                            <label>Password:</label>
+                                <input type="password" name="dpass" class="psw-input">
+                                <br>
+                            <button text="submit" name="dsubmit" onclick="formSubmit()" type="button" class="submit-button">Submit</button>
+                            <span class="psw">Don't have an account? <a href="Register.html">Register</a></span>
+                        </form>
+                    </div>
+            </div>
+            <!--FOOTER-->
+            <!--<div id="footer">
+                <div class="footer-content">
+                    211e
+                    <div class="footer-section_about">
+                        About
+                    </div>
+                    <div class="footer-section_links">
+                        Links
+                    </div>
+                    <div class="footer-section_contact">
+                        Contant
+                    </div>
+                </div>
+            </div>-->
+            
+        </div>
+    </body>
+</html>

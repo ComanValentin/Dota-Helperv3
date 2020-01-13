@@ -1,0 +1,66 @@
+div.am-page {
+    margin: 10vh 15vw;
+    padding: 10px 15px;
+    background-color: #b0c3d9;
+    border: 3px solid #A83806;
+    border-radius: 15px;
+}
+figure{
+    margin: 0;
+}
+.info_1{
+    padding: 5px;
+}
+.ability_title{
+    background: #A83806;
+    color:white;
+}
+#am {
+    font-size: 30px;
+    font-weight: bold;
+    color: #A83806;
+    text-align: center;
+}
+.am-title{
+    color: #A83806;
+    font-weight: bold;
+}
+.subtitle_am{
+    color: #A83806;
+    padding: 10px;
+}
+#hero-mini-icon{
+    width: 20px;
+    height: 20px;
+}
+#hero-mini-text{
+    text-align: center;
+    color: #A83806;
+}
+#am-title-bkg{
+    color: #ffffff;
+    background: green;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th, td {
+    padding: 5px;
+    text-align: center;    
+}
+.hero-icon{
+    width: 256px;
+    height: 144px;
+    padding: 0px;
+}
+.table-bkg-color{
+    background:#2277AA;
+    color: #1B1E21;
+}
+@media screen and (max-width: 764px) {
+    div.body-page {
+        margin: 10vh 1vw;
+    }
+}

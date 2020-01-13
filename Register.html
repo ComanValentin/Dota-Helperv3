@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dota Helper</title>
+        <link rel="shortcut icon" type="image/png" href="IMG/Favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="CSS/General_Style.css">
+        <link rel="stylesheet" type="text/css" href="CSS/Register_Style.css">
+        <script src="scripts/register-script.js"></script>
+        <script href="scripts/header-script.js"></script>
+    </head>
+    <body onload="createInputs()">
+        <div id="container">
+            <!-- HEADER-->
+            <div id="header">
+                <div class="navbar">
+                    <ul>
+                        <li><a id="home-link" href="index.html">Home Page</a></li>
+                        <li><a id="items-link" href="#">Items</a></li>
+                        <li><a id="patch-link" href="#">Dota 2 Patches</a></li>
+                        <li class="dropdown">
+                            <a href="#">Heroes</a>
+                            <div class="dropdown-content">
+                                <a id="agility-link" href="Agility.html">Agility</a>
+                                <a id="strength-link" href="#">Strength</a>
+                                <a id="intelligence-link" href="#">Intelligence</a>
+                            </div>
+                        </li>
+                        <li><a id="support-link" href="#">Support</a></li>
+                        <li id="login"><a href="Login.html">Login</a></li> 
+                    </ul>          
+                </div>
+            </div>
+        </div>
+            </div>
+            <!--CONTENT-->
+            <div class="main-body">   
+                <form>
+                    <div class="container">
+                        <h1>Register</h1>
+                        <p>Please fill the following fields in order to create an account.</p>
+                        <hr>         
+                        <div id="input-container"></div>
+                        <hr>
+                        <div id="ts-container"></div>
+                        <button type="submit" class="registerbutton">Create account</button>
+                    </div>
+                    <div class="container signin">
+                        <p>Already have an account? <a href="Login.html">Log in</a>.</p>
+                    </div>
+                </form>
+            </div>           
+        </div>
+    </body>
+</html>
